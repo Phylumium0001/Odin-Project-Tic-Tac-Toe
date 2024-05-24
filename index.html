@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <main>
+        <div class="gameBoard">
+            <div class="slot unhide" data-slot-val="1" id="slot1"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="2" id="slot2"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="3" id="slot3"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="4" id="slot4"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="5" id="slot5"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="6" id="slot6"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="7" id="slot7"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="8" id="slot8"><p>*</p></div>
+            <div class="slot unhide" data-slot-val="9" id="slot9"><p>*</p></div>
+        </div>
+        <div class="gameState">
+            <p id="gameState">X Wins</p>
+        </div>
+        <div class="button">
+            <button id="btn">Reset</button>
+        </div>
+        
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
